@@ -85,3 +85,273 @@ body{
     border-radius: 75px;
 }
 
+.intro{
+    border : 5px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    border-left-width: 10px;
+    border-right-width: 10px;   
+}
+
+.groove-border-box{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: border-box;
+}
+
+.groove-border-box-black{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: border-box;
+}
+
+.dotted-border-box{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: border-box;
+}
+
+.dotted-border-box-black{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: border-box;
+}
+
+.dashed-border-box{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: border-box;
+}
+
+.dashed-border-box-black{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: border-box;
+}
+
+.groove-padding-box{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: padding-box;
+}
+
+.groove-padding-box-black{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: padding-box;
+}
+
+
+.dotted-padding-box{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: padding-box;
+}
+
+.dotted-padding-box-black{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: padding-box;
+}
+
+.dashed-padding-box{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: padding-box;
+}
+
+.dashed-padding-box-black{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: padding-box;
+}
+
+.groove-content-box{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip :content-box;
+}
+
+.groove-content-box-black{
+    border : 15px groove blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip :content-box;
+}
+
+
+.dotted-content-box{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: content-box;
+}
+
+.dotted-content-box-black{
+    border : 15px dotted blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: content-box;
+}
+
+.dashed-content-box{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: url(../anime/img/stage.jpg);
+    color: white;
+    background-clip: content-box;
+}
+
+.dashed-content-box-black{
+    border : 15px dashed blue;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    background-clip: content-box;
+}
+
+.inline1{
+    display :inline-block;
+    height: 150px;  
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+#div1{
+    border : 5px solid red;
+    height : inherit;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+#div2{
+    border : 5px solid red;
+    height : inherit;
+    width: 150px;
+    border-radius: 25%;
+    margin-left: 10px;
+    float: left;
+}
+
+#div3{
+    border : 5px solid red;
+    height : inherit;
+    width: 150px;
+    border-radius: 100% 0% 100% 0% ;
+    margin-left: 10px;
+    float: left;
+}
+
+#div4{
+    border : 5px solid red;
+    height : inherit;
+    width: 150px;
+    border-radius: 0% 100% 0% 100% ;
+    margin-left: 10px;
+    float: left;  
+}
+
+#div5{
+    border : 5px solid red;
+    height : inherit;
+    width: 150px;
+    border-radius: 0% 100% 0% 0% ;
+    margin-left: 10px;
+    float: left;  
+    border-left-color: blue;
+    border-bottom-color: yellow;
+    border-right-color: yellowgreen;
+}
+
+
+#div6{
+    margin-left: 10px;
+    border: 159px solid rgba(83, 179, 101, 0.475);
+    border-top: 0;
+    border-left: 60px  solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 50%;
+    float: left;  
+}
+
+#div7{
+    margin-left: 10px;
+    border: 159px solid transparent;
+    border-top: 0;
+    border-bottom: 159px solid transparent;
+    border-left: 60px  solid transparent;
+    border-right: 110px solid black;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 50%;
+    float: left;  
+}
+
+
+
