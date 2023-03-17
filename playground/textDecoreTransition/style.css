@@ -1,0 +1,105 @@
+.demop1{
+    text-align-last: right;
+    background-color: aqua;
+    color: black;
+}
+
+.demop2{
+    text-align-last: left;
+    background-color: rgba(0, 128, 0, 0.544);
+    color: black;
+}
+
+.demop3{
+    text-align-last: justify;
+    background-color: rgba(19, 0, 128, 0.384);
+    color: black;
+}
+
+a{
+    text-decoration: none; 
+    
+    color: rgb(193, 136, 67);
+    font-size: larger;
+}
+
+h3{
+    text-decoration: underline overline;
+    text-decoration-color: red ;
+    text-decoration-style: dashed;
+    /* text-decoration-thickness: 2px; */
+    text-transform: capitalize;
+    text-underline-offset: 0.3rem;
+    
+}
+
+.home{
+
+}
+
+.line-through{
+    text-decoration: line-through  green 3px;
+    }
+
+.overline {
+    text-decoration: overline  dotted blue 3px;
+} 
+
+.home{
+    text-decoration: underline overline dashed 3px;
+    text-decoration-color: aqua ;
+    text-underline-offset: 2px;
+}
+
+.shadow{
+    color: transparent;
+    text-shadow: 2px 2px 5px rgb(157, 150, 150) ;
+}
+
+.f1{
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    /* transform: translate(-50px, 80px); */
+    /* transform: rotateX(50deg); */
+    /* transform: rotateY(150deg); */
+    /* transform: scale(-1, -1); */
+    /* transform: scale(2, 1); */
+}
+
+.f2{
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+    background-color: tomato;
+    transform: skewY(25deg);
+}
+
+
+.f3{
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+    background-color: aqua;
+    transition: width 3s, height 2s, transform 2s, background-color 6s ease-in-out;
+    transition-delay: 1ms;
+    /* transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1); */
+    padding: 20px;
+    /* transform: skewY(25deg); */
+}
+
+.f3:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    /* transform: rotate(360deg); */
+    
+    background-color: blue;
+    
+}
+
+/* .f3:hover::after{
+    border-radius: 25px;
+    background-color: red; */
+/* } */

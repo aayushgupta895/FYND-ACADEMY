@@ -1,0 +1,43 @@
+
+div{
+   
+    height : 100px;
+    width: 100px;
+    display: inline-block; /*includes data in x-axis*/
+    border: 2px solid green;
+    margin: 5px;
+}
+/* .demo3{
+    position: absolute;/*takes postion relative to its parent here it is body
+    /* position: relative; */
+    /* top: 35px;
+    left: 35px;
+    border: 5px solid red;
+    margin: 0px;
+    padding: 0;
+}
+
+.demo2{
+    position: relative;
+}
+
+
+.demo6{
+    position: relative; /*relative to its immediate parent*/
+    /* top: 35px;
+    left: 35px;
+    border: 5px solid blue;
+    margin: 0px;
+    padding: 0;
+}  */
+
+.demo5{
+    position: absolute;
+}
+ .demo6{
+    border-color : red;
+    position: absolute;
+    top: 25px;
+    left : 10px;
+ }
+

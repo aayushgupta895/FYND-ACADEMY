@@ -1,0 +1,112 @@
+#demo1{
+    color: white;
+    border: 10px dotted black;
+    padding: 15px;
+    /* background : url(./img/low-res.jpg); */
+    background-clip: border-box;
+}
+#demo2{
+    border: 10px dotted black;
+    padding: 15px;
+    background : yellow;
+    background-clip: padding-box;
+}
+#demo3{
+    border: 10px dotted black;
+    padding: 15px;
+    background : yellow;
+    background-clip: content-box;
+}
+
+/* div{
+    height: 100vh;
+    width: 100vw; */
+    /* background-image: url(https://cdn.wallpapersafari.com/52/25/dF5OVP.jpg); */
+    /* background-color: blueviolet; */
+    /* background-repeat: repeat-y; */
+/* } */
+
+
+#demo4{
+    opacity: 1;
+}
+#demo5{
+    opacity: 0.5;
+}
+#demo6{
+    opacity: 0.3;
+}
+#demo7{
+    opacity: 0.1;
+}
+
+#demo8{
+    color: white;
+    padding : 25px;
+    height: 400px;
+    width: 100%;
+    /* background-image: url(https://i.stack.imgur.com/Bhpd8.jpg); */
+    /* background-size: 100% 100%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body{
+    /* background-color: aqua; */
+    /* height: 300px;
+    width: 560px; */
+    /* */
+    /* background : url(https://cdn.wallpapersafari.com/52/25/dF5OVP.jpg); */
+    /* background-repeat: repeat-y; */
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: center; */
+    /* background-position-x: center; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    /* background-size: 100% 800px; */
+}
+
+
+.demo9{
+    position: fixed;
+    top: 0;
+    border: 5px solid red;
+}
+
+
+.dem1{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.dem2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.dem3{
+    position: absolute;
+    border: 5px solid red;
+    color: white;
+}
+
+.p1.div1{
+    position: sticky;
+    top: 0;
+    margin: 100px;
+}
+
+.p2.div1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 100px;
+}
+
