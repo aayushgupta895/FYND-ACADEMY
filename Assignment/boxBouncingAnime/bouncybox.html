@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        
+        .container{
+            width: 100vw;
+            height: 100vh;
+            position: relative;     
+        }
+        .first{
+            height: 100px;
+            width: 6.5vw;
+            background-color: transparent; 
+            position: absolute;      
+        }
+
+        
+        .second{
+            height: 100px;
+            width: 6.5vw;
+            background-color: transparent;
+            position: absolute;
+            
+        }
+
+        .third{
+            height: 100px;
+            width: 6.5vw;
+            background-color: transparent;
+            position: absolute;
+            
+        }
+
+        .fourth{
+            height: 100px;
+            width: 6.5vw;
+            background-color: transparent;
+            position: absolute;
+    
+        }
+        
+        .container:hover .first{
+            animation: demo 2s infinite alternate-reverse ease-out;
+            /* animation-delay: .5s; */
+        }
+
+        
+
+        @keyframes demo {
+            0%{
+                background-color: rgb(151, 11, 56);
+               
+                left: 43.5vw;
+                top: 36.2vh;
+            }
+            100%{
+                background-color: rgb(25, 156, 54);
+                left: 0;
+                top: 0;
+                border-radius: 50%;
+            }
+        }
+        .container:hover .second{
+            animation: demo2 2s infinite alternate-reverse ease-out;
+        }
+
+        @keyframes demo2 {
+            0%{
+                background-color: rgb(55, 210, 31);
+                right: 43.5vw;
+                top: 36.2vh;
+            }
+            100%{
+                background-color: rgb(125, 5, 127);
+                right: 0;
+                top: 0;
+                border-radius: 50%;
+            }
+        }
+        .container:hover .third{
+            animation: demo3 2s infinite alternate-reverse ease-out;
+        }
+
+        @keyframes demo3 {
+            0%{
+                background-color: rgb(30, 26, 159);
+                left: 43.5vw;
+                bottom: 36.2vh;
+            }
+            100%{
+                background-color: rgb(213, 240, 10);
+                left: 0;
+                bottom: 0;
+                border-radius: 50%;
+            }
+        }
+
+        .container:hover .fourth{
+            animation: demo4 2s infinite alternate-reverse ease-out;
+        }
+
+        @keyframes demo4{
+            0%{
+                background-color: rgb(237, 58, 9);
+                right: 43.5vw;
+                bottom: 36.2vh;
+            }
+            100%{
+                background-color: rgb(8, 180, 180);
+                right: 0;
+                bottom: 0;
+                border-radius: 50%;
+                animation-delay: 5s;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first one"></div>
+        <div class="second one"></div>
+        <div class="third one"></div>
+        <div class="fourth one"></div>
+    </div>
+    
+</body>
+</html>

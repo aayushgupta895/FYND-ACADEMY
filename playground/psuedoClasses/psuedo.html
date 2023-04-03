@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            flex-direction: column;
+        }
+
+        .container p{
+            border: 2px solid red;
+            width: 100px;
+            padding: 10px;
+            /* border-radius: 0 25px 25px 0; */
+            /* transition: width 2s; */
+        }
+
+        .container:hover #p1{
+            width: 350px;
+        }
+        .container:hover #p2{
+            width: 200px;
+        }.container:hover #p3{
+            width: 300px;
+        }.container:hover #p4{
+            width: 250px;
+        }
+
+        #p1{
+            transition: width 2s ease;     
+        }
+        #p2{
+            transition: width 2s ease-in;     
+        }#p3{
+            transition: width 2s ease-in-out;     
+        }#p4{
+            transition: width 2s ease-out;     
+        }
+        p::before{
+            content: "Note ";
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <p id="p1">home</p>
+        <p id="p2">blogs</p>
+        <p id="p3">category</p>
+        <p id="p4">about us</p>
+    </div> -->
+    <h1>Using before and after</h1>
+    <p>this is paragrph</p>
+</body>
+</html>

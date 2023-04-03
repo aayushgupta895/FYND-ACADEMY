@@ -62,12 +62,13 @@ body{
 
 .container p{
     /* transform: translate(150px, px); */
-    margin-left: 105px;
+    margin-left: 5px;
     letter-spacing: 12px;
     font-weight:900;
     color: white;
     font-size: 30px;
     padding-top: 15px;
+    width: 250px;
 }
 
 .container p:focus{
@@ -91,6 +92,10 @@ body{
     align-items: center;   
 }
 
+.container ul{
+    margin-left: 50px;   
+}
+
 .container ul li{
     display: inline-block;
     margin-left: 40px;
@@ -112,9 +117,7 @@ body{
     box-shadow: 1px 1px 5px rgba(148, 147, 146, 0.659), -.5px -.5px 5px rgba(190, 189, 188, 0.659);
 }
 
-.container ul{
-    margin-left: 220px;   
-}
+
 
 
 .mid{
